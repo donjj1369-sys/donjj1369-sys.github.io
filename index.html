@@ -2,9 +2,56 @@
 <html>
 <head>
   <title>My Website</title>
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      font-family: Arial, sans-serif;
+      color: white;
+
+      /* Mount Everest background */
+      background-image: url('https://images.unsplash.com/photo-1501785888041-af3ef285b470');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 100vh;
+    }
+
+    .overlay {
+      background: rgba(0, 0, 0, 0.5);
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    h1 {
+      color: #FFD700; /* Gold */
+      font-size: 50px;
+    }
+
+    h2 {
+      color: #00FF7F; /* Green */
+    }
+
+    p {
+      font-size: 20px;
+      margin: 10px;
+    }
+  </style>
+
 </head>
+
 <body>
-  <h1>Welcome to My Website</h1>
-  <p>This is my first site!</p>
+
+  <div class="overlay">
+    <h1>Hello Ejaruddin 👋</h1>
+    <h2>My website is live 🚀</h2>
+    <p>This is my first website hosted on GitHub Pages.</p>
+    <p>Mount Everest inspires me to aim higher 🏔️</p>
+  </div>
+
 </body>
 </html>
